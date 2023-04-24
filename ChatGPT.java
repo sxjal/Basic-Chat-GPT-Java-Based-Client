@@ -19,9 +19,9 @@ public class ChatGPT {
         con.setRequestMethod("POST");
         con.setRequestProperty("Content-Type", "application/json");
         //api authentication. 
-        //api key - "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"
+        //api key - "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"
       
-        con.setRequestProperty("Authorization", "Bearer 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");
+        con.setRequestProperty("Authorization", "Bearer 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");
         //specifing details on the data needs to be extracted on the based of different parameters
       
         JSONObject data = new JSONObject();
